@@ -69,7 +69,7 @@ There are many algorithms for implementing Manifold Learning.
 - Multi-dimensional Scaling (MDS)
 - t-distributed Stochastic Neighbor Embedding (t-SNE)
 
-For informaion on other algorithms and their scikit-learn implementation:
+For information on other algorithms and their scikit-learn implementation:
 https://scikit-learn.org/stable/modules/manifold.html
 
 
