@@ -8,7 +8,7 @@ It identifies the combination of attributes (principal components, or directions
 
 For example, consider the following figure. Although x lives in two dimensions, it really occupies a small "lower dimension" in 1D subspace. This lower dimension accounts for the most varince in x.
 
-<img src="https://cse.unl.edu/~hasan/PCA1.png" width=400 height=200>
+<img src="https://cse.unl.edu/~hasan/Pics/PCA1.png" width=400 height=200>
 
 Thus, it would be useful to represent data in lower dimensions. There are at least two benefits of dimensionality reduction:
 - Learning becomes easier because of fewer parameters.
@@ -76,28 +76,23 @@ https://scikit-learn.org/stable/modules/manifold.html
 
 ## Index for the Notebook Series on Dimensionality Reduction
 
-There are 6 notebooks on Dimensionality Reduction.
+There are 7 notebooks on Dimensionality Reduction.
 
-- Dimensionality Reduction-1-Linear Methods
+Dimensionality Reduction-1-Linear Methods
 
-        Visualize linearly separable data using two linear methods: PCA and LDA
+  Visualize linearly separable data using two linear methods: PCA and LDA
+Dimensionality Reduction-2-Non-Linear Methods-Manifold Learning
 
-- Dimensionality Reduction-2-Non-Linear Methods-Manifold Learning
+  Visualize linearly non-separable data using non-linear methods: LLE, Isomap, MDS, t-SNE
+Dimensionality Reduction-3-Visualize MNIST in 2D using t-SNE
 
-        Visualize linearly non-separable data using non-linear methods: LLE, Isomap, MDS, t-SNE
- 
-- Dimensionality Reduction-3-Visualize MNIST in 2D using t-SNE
+  Visualize high-dimensional MNIST data using t-SNE
+Dimensionality Reduction-4-Compression & Decompression Using PCA
 
-        Visualize high-dimensional MNIST data using t-SNE
- 
-- Dimensionality Reduction-4-Compression & Decompression Using PCA
+  Perform data compression & decompression using PCA and investigate the effect of PCA on a classification algorithm
+Dimensionality Reduction-5-Incremental PCA
 
-        Perform data compression & decompression using PCA and investigate the effect of PCA on a classification algorithm
- 
-- Dimensionality Reduction-5-Incremental PCA
+  How to apply apply PCA on a very large dataset and in active learning using incremental PCA
+Dimensionality Reduction-6-Kernel PCA
 
-        How to apply apply PCA on a very large dataset and in active learning using incremental PCA
-  
-- Dimensionality Reduction-6-Kernel PCA
-
-        Visualize linearly non-separable data using Kernel PCA
+  Visualize linearly non-separable data using Kernel PCA
