@@ -81,21 +81,16 @@ https://scikit-learn.org/stable/modules/manifold.html
 
 There are 7 notebooks on Dimensionality Reduction.
 
-Dimensionality Reduction-1-Linear Methods
+- Dimensionality Reduction-1-Linear Methods: Visualize linearly separable data using two linear methods: PCA and LDA
 
-  Visualize linearly separable data using two linear methods: PCA and LDA
-Dimensionality Reduction-2-Non-Linear Methods-Manifold Learning
+- Dimensionality Reduction-2-Non-Linear Methods-Manifold Learning: Visualize linearly non-separable data using non-linear methods: LLE, Isomap, MDS, t-SNE
 
-  Visualize linearly non-separable data using non-linear methods: LLE, Isomap, MDS, t-SNE
-Dimensionality Reduction-3-Visualize MNIST in 2D using t-SNE
+- Dimensionality Reduction-3-Introduction to t-SNE
 
-  Visualize high-dimensional MNIST data using t-SNE
-Dimensionality Reduction-4-Compression & Decompression Using PCA
+- Dimensionality Reduction-4-Visualize MNIST in 2D using t-SNE: Visualize high-dimensional MNIST data using t-SNE
 
-  Perform data compression & decompression using PCA and investigate the effect of PCA on a classification algorithm
-Dimensionality Reduction-5-Incremental PCA
+- Dimensionality Reduction-5-Compression & Decompression Using PCA: Perform data compression & decompression using PCA and investigate the effect of PCA on a classification algorithm
 
-  How to apply apply PCA on a very large dataset and in active learning using incremental PCA
-Dimensionality Reduction-6-Kernel PCA
+- Dimensionality Reduction-6-Incremental PCA: How to apply apply PCA on a very large dataset and in active learning using incremental PCA
 
-  Visualize linearly non-separable data using Kernel PCA
+- Dimensionality Reduction-7-Kernel PCA: Visualize linearly non-separable data using Kernel PCA
