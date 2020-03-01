@@ -8,7 +8,7 @@ It identifies the combination of attributes (principal components, or directions
 
 For example, consider the following figure. Although x lives in two dimensions, it really occupies a small "lower dimension" in 1D subspace. This lower dimension accounts for the most varince in x.
 
-<img src="https://cse.unl.edu/~hasan/Pics/PCA1.png" width=400 height=200>
+<img src="https://cse.unl.edu/~hasan/Pics/DimensionalityReduction.png" width=400 height=200>
 
 Thus, it would be useful to represent data in lower dimensions. There are at least two benefits of dimensionality reduction:
 - Learning becomes easier because of fewer parameters.
@@ -50,10 +50,13 @@ Two other unsupervised linear projection methods are: Factor Analysis (FA) and M
 
 ## Non-Linear Methods 
 
-The linear methods of dimensionality reduction are flexible, fast, and easily interpretable. For example, PCA works well when the data lies in a **linear subspace**. However, this may not hold in many applications when there are **nonlinear relationships** within the data.
+The linear methods of dimensionality reduction are flexible, fast, and easily interpretable. For example, PCA works well when the data lies in a **linear subspace**. However, this may not hold in many applications when there are **nonlinear relationships** within the data in lower-dimension.
+
+For example, the following dataset is three-dimensional. However, notice that it is created by folding a 2D plane. Thus, the intrinsic lower dimension is 2D. But, the lower-dimension sub-space is **non-linear**!
+
+<img src="https://cse.unl.edu/~hasan/Pics/SwissRoll.png" width=400 height=200>
 
 One approach to resolve this issue is use a non-linear dimensionality reduction technique that is known as Manifold Learning.
-
 In Manifold Learning we assume that the data of interest **lie on an embedded non-linear manifold within the higher-dimensional space**. More generally, a d-dimensional manifold is a part of an n-dimensional space (where d < n) that locally resembles a d-dimensional hyperplane.
 
 
