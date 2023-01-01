@@ -54,7 +54,7 @@ The linear methods of dimensionality reduction are flexible, fast, and easily in
 
 For example, the following dataset is three-dimensional. However, notice that it is created by folding a 2D plane. Thus, the intrinsic lower dimension is 2D. But, the lower-dimension sub-space is **non-linear**!
 
-<img src="https://cse.unl.edu/~hasan/Pics/SwissRoll.png" width=400 height=200>
+<img src="http://engineering.unl.edu/images/uploads/SwissRoll.png" width=400 height=200>
 
 One approach to resolve this issue is use a non-linear dimensionality reduction technique that is known as Manifold Learning.
 In Manifold Learning we assume that the data of interest **lie on an embedded non-linear manifold within the higher-dimensional space**. More generally, a d-dimensional manifold is a part of an n-dimensional space (where d < n) that locally resembles a d-dimensional hyperplane.
